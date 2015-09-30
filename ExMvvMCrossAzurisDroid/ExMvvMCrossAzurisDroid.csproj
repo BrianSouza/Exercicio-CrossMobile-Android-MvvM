@@ -78,7 +78,6 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
-    <None Include="ToDo-MvvmCross\_ Droid UI.txt" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -96,6 +95,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\layout\" />
+    <Folder Include="ToDo-MvvmCross\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ExMvvMCrossAzuris\ExMvvMCrossAzuris.csproj">
